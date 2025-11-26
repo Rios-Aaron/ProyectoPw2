@@ -18,8 +18,8 @@ app.set('view engine','ejs');
 // configuracion de mi DB
 const db = mysql.createConnection({
     host:'localhost',
-    user:'root',
-    password:'Tuculucupende12.',
+    user:'admin',
+    password:'Password.',
     database:'node_crud',
     port:'3306'
 });
